@@ -1,8 +1,8 @@
 from stability_sdk import api
 from stability_sdk.animation import AnimationArgs, Animator
 
-STABILITY_HOST = "grpc.stability.ai:443"
-STABILITY_KEY = "sk-4ZP2E9TGDEa0elkvcMkiqKzUmk7FdtGPb0KMsa5PcTV0VDOv"
+STABILITY_HOST = ""
+STABILITY_KEY = ""
 
 context = api.Context(STABILITY_HOST, STABILITY_KEY)
 
